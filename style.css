@@ -51,14 +51,13 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background-color: green;
   position: relative;
 }
 
 .wallpaper-design {
   width: 100%;
   min-height: 25vh;
-  background-image: url("/assets/images/background-pattern-mobile.svg");
+  background-image: url("./assets/images/background-pattern-mobile.svg");
   background-position: center;
   background-size: contain;
 }
@@ -133,7 +132,6 @@
   color: var(--clr-dark-pink);
 }
 
-
 .accordian-list li label::after {
   content: "";
   background-image: url("./assets/images/icon-plus.svg");
@@ -178,6 +176,6 @@ input[type="radio"]:checked + label::after {
     width: 32px;
   }
   .wallpaper-design {
-    background-image: url("/assets/images/background-pattern-desktop.svg");
+    background-image: url("./assets/images/background-pattern-desktop.svg");
   }
 }
